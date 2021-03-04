@@ -1,0 +1,44 @@
+th{
+    background-color: black;
+    color: white;
+}
+
+tr.One{
+    background-color: orange;
+    text-align: center;
+}
+
+tr.Two{
+    background-color: green;
+    text-align: center;
+}
+
+tr.Three{
+    background-color: blue;
+    text-align: center;
+}
+
+tr.Four{
+    background-color: yellow;
+    text-align: center;
+}
+
+tr.Five{
+    background-color: red;
+    text-align: center;
+}
+
+tr.Six{
+    background-color: purple;
+    text-align: center;
+}
+
+img{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 120px ;
+    width: 120px;
+    border-radius: 27px;
+}

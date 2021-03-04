@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>t08</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <h1>Superhero Form</h1>
+
+   <form>
+       <fieldset class="butt">
+        <fieldset>
+            <legend>About the Superhero</legend>
+            <p><label>Real Name<em>*</em></label> <input autofocus placeholder="Superhero real name" type="text">   
+               <label>Superhero Name<em>*</em></label> <input placeholder="Superhero alias" type="text">
+               <label>Age</label> <input class="age" type="text">
+            </p>
+            <p>
+                <label>About</label> <textarea cols="70" maxlength="500" rows="5" placeholder="Information about the superhero, max 500 symbols"></textarea>
+            </p>
+            <p>
+                <label>Photo</label> <button type="button">Choose file</button> <label>No file chosen</label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Powers</legend>
+            <p>
+                <input type="checkbox"><label>Telekinasis</label> 
+                <input type="checkbox"><label>Super strength or speed</label> 
+                <input type="checkbox"><label>Shapeshifting</label> 
+                <input type="checkbox"><label>Flight</label> 
+                <input type="checkbox"><label>Elemental control</label> 
+                <input type="checkbox"><label>Other</label><br><br>
+                <label>Level of control</label><input type="range" min="0" max="10" step="1" value="1">
+            </p>
+        </fieldset>
+
+        <fieldset class="Orig">
+            <legend>Origin of Powers</legend>
+            <input type="radio"><label>Unknown</label> 
+            <input type="radio"><label>Freak lab accident</label> 
+            <input type="radio"><label>Chosen by an ancient wise being</label> 
+            <input type="radio"><label>The superhero is not human</label> 
+            <input type="radio"><label>Other</label> 
+        </fieldset>
+
+        <div> <button type="reset">Clear</button> <button type="submit">Send</button></div>
+       
+    </fieldset>
+   </form>
+
+</body>
+</html>

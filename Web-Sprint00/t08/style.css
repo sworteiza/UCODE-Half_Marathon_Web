@@ -1,0 +1,17 @@
+fieldset.butt
+{
+    padding-bottom: 30px;
+}
+
+fieldset.Orig{
+    padding: 20px;
+}
+
+div{
+    position: relative;
+    top: 17px;
+}
+
+.age{
+    width: 40px;
+}
