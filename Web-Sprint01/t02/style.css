@@ -1,0 +1,18 @@
+.Gaunt{
+    height: 150px;
+}
+
+img{
+    height: 100px;
+}
+
+
+.Gaunt:hover ~ table tbody tr:nth-child(odd) td:nth-child(even) img{
+    display: none;
+    color: white;
+}
+
+.Gaunt:hover ~ table tbody tr:nth-child(even) td:nth-child(odd) img{
+    display: none;
+    color: white;
+}

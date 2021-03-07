@@ -1,0 +1,133 @@
+.head1{
+    color: rgb(206, 125, 139);
+    margin-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+}
+
+.head2{
+    color: gray;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="checkbox"]
+{
+    opacity: 0;
+}
+
+div{
+    max-width: 640px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+}
+
+
+ul{
+    padding: 5px;
+    position: relative;
+    right: 95px;
+}
+
+ul li{
+    display: flex;
+    margin: 2px;
+    
+}
+
+ul li label{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(19, 19, 19, 0.5);
+    color: rgba(19, 19, 19, 0.5);
+    border-radius: 40px;
+    white-space: nowrap;
+    margin: 3px 0px;
+    font-size: 18px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: all .2s;
+}
+
+ul li label{
+    padding: 20px 24px;
+    padding-left: 50px;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+ul li input[type="checkbox"]:checked + label::after{
+    content: " \2713";  
+    color: white;  
+}
+
+ul li input[type="checkbox"]:checked + label{
+    background-color: rgb(76, 76, 118);
+    color: white;
+}
+
+ul.ul1 label{
+    position: relative;
+    left: 140px;
+}
+
+ul.ul2 label{
+    position: relative;
+    left: 200px;
+    
+}
+
+ul.ul3 label{
+    position: relative;
+    left: 415px;
+    
+}
+
+.ip2{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+input[type="email"]{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: 250px;
+    
+}
+.ip input{
+    margin-right: 40px;
+}
+.ip1{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+    
+}
+
+input[type="submit"]{
+    width: 100%;
+    background-color: #dd6b7c;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+input[type="submit"]:hover{
+    background-color: #a7505d;
+   
+}

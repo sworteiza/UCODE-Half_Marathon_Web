@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Settings</h1>
+    <span class="Blue">
+        <form>
+            <div>
+                <div class="select">
+                    <label for="dropdown">Typefaces<br></label>
+                    <select name="dropdown" id="fonts">
+                        <div class=".opt_">
+                            <option value="Acunim">Acunim Pro</option>
+                            <option value="Comic">Comic Sans</option>
+                            <option value="Roman">Times New Roman</option>
+                        </div>
+                    </select>
+                </div>
+                <br>
+                <div class="Check">
+                    <label>Weight</label><br>
+                    <div class="marg">
+                        <input type="checkbox" id="w">Regular
+                        <input type="checkbox" id="e">Bold
+                    </div>
+                </div>
+                <div class="range">
+                    <label for="size">Size<br></label>
+                    <input type="range" name="size" min="10" max="20" step="1">
+                    <p class="f1">A
+                    <div class="f2">A</div>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="switch">
+                    Dark UI
+                    <label class="switch_1">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="color_ch">
+                    <label for="check" class="check">Color</label>
+                    <ul name="check" class="list_color">
+                        <li><input type="checkbox" id="c_1"><label for="c_1"></label></li>
+                        <li><input type="checkbox" id="c_2"><label for="c_2"></label></li>
+                        <li><input type="checkbox" id="c_3"><label for="c_3"></label></li>
+                        <li><input type="checkbox" id="c_4"><label for="c_4"></label></li>
+                        <li><input type="checkbox" id="c_5"><label for="c_5"></label></li>
+                    </ul>
+                </div>
+            </div>
+        </form>
+        <div class="image">
+            <div class="m_b brush"><input type="button"></div>
+            <div class="m_b user"><input type="button"></div>
+            <div class="m_b sms"><input type="button"></div>
+            <div class="m_b comp"><input type="button"></div>
+        </div>
+    </span>
+</body>
+
+</html>
