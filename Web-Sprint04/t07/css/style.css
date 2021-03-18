@@ -1,0 +1,78 @@
+.box{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-shadow: .1em .1em 0 rgba(0,0,0,0.3);
+    font-size: 1.3em;
+    height: 100vh;
+    margin-top: 40px;
+    position: relative;
+    top: 120px;
+    right: 30px;
+}
+
+.forecast{
+    transform: scale(1.4, 1.4);
+    padding: 10px;
+    margin-left: 100px;
+
+}
+
+.forecast:hover{
+    box-shadow: -5px -5px 13px 6px rgba(34, 60, 80, 0.2);
+    transition: 1s ease;
+}
+
+#local{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-shadow: .1em .1em 0 rgba(0,0,0,0.3);
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    background-image: linear-gradient(to right top, #99bbcb, #a5c7d7, #b1d4e2, #bde0ee, #c9edfa);
+}
+#temp0, #temp1, #temp2, #temp3, #temp4{
+    margin: 0 auto;
+    font-size: 2.2em;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+
+.Clouds{
+    content: url("https://cdn3.iconfinder.com/data/icons/tiny-weather-1/512/cloud-256.png"); 
+    width: 67px;
+    height: 67px;
+}
+
+.Rain{
+    content: url("https://cdn3.iconfinder.com/data/icons/tiny-weather-1/512/rain-cloud-256.png"); 
+    width: 67px;
+    height: 67px;
+}
+
+.Snow{
+    content: url("https://cdn3.iconfinder.com/data/icons/tiny-weather-1/512/snow-cloud-256.png"); 
+    width: 67px;
+    height: 67px;
+}
+
+.Sun{
+    content: url("https://cdn3.iconfinder.com/data/icons/tiny-weather-1/512/sun-256.png");
+    width: 67px;
+    height: 67px;
+}
+
+.Clear{
+    content: url("https://cdn3.iconfinder.com/data/icons/tiny-weather-1/512/cloudy-256.png"); 
+    width: 67px;
+    height: 67px;
+}

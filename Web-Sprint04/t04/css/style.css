@@ -1,0 +1,112 @@
+.d {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 960px;
+    height: 500px;
+    background-color: rgb(216, 212, 212);
+    border-radius: 6px;
+    margin-left: 290px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cast{
+    display: flex;
+    flex-direction: row;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.cast li{
+    display: block;
+    width: 70px;
+    height: 50px;
+    background-color: rgb(121, 121, 235);
+    color: white;
+    margin-left: 5px;
+    text-align: center;
+    padding: 2px 2px 2px 2px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.info, img{
+    position: relative;
+    left: 200px;
+}
+
+
+.info{
+    width: 400px;
+    height: 100px;
+}
+
+img{
+    margin-left: 20px;
+}
+
+#bold{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.col{
+    margin-top: 15px;
+    
+}
+
+
+#li2{
+    position: absolute;
+    top:  180px;
+    
+}
+
+#li3{
+    position: absolute;
+    top: 250px;
+   
+}
+
+#i2{
+    position: absolute;
+    top: -60px;
+}
+
+#i3{
+    position: absolute;
+    top: -110px;
+}
+
+
+#li3:active::before, #li1:active::before, #li2:active::before{
+    content: ".";
+    color: rgb(88, 88, 235);
+    width: 2px;
+    height: 20px;
+    background: rgb(88, 88, 235);
+    margin-right: 5px;
+    
+}
+
+label{
+    font-size: 18px;
+}

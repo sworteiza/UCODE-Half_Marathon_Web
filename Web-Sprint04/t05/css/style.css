@@ -1,0 +1,23 @@
+div{
+    width: 100px;
+    height: 100px;
+}
+
+#bl1{
+    background-color: yellow;
+    border: none;
+    transform: rotate(45deg);
+}
+
+
+#bl2{
+    background-color: rgb(120, 121, 216);
+    border: none;
+    transform: rotate(45deg);
+}
+
+#bl3{
+    background-color: rgb(192, 82, 87);
+    border: none;
+    transform: rotate(45deg);
+}

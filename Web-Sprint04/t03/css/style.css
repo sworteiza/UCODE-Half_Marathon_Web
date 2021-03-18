@@ -1,0 +1,20 @@
+div{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 500px;
+}
+
+button{
+    border: none;
+    background-color: rgb(143, 143, 143);
+    opacity: 40%;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(75, 75, 75);
+    transition: 1s ease;
+}

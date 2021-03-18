@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+}
+
+img {
+    opacity: 1;
+    transition: opacity 1s;
+    margin-top: 20px;
+}
+
+

@@ -1,0 +1,29 @@
+table{
+    border: 2px solid black;
+    height: 500px;
+    width: 250px;
+    transform: scale(1.25,1.25);
+    position: relative;
+    left: 300px;
+}
+
+th{
+    background-color: #d73321;
+    width: 75px;
+}
+
+td{
+    background-color: #d3d3d3;
+}
+
+
+table, th, td{
+    text-align: center;
+    font-size: 12px;
+}
+
+th:hover{
+    background-color: #863026;
+    transition: 1s ease;
+}
+

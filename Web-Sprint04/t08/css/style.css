@@ -1,0 +1,68 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.butt button {
+    background-color: rgb(123, 162, 235);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    padding-left: 21px;
+    padding-right: 21px;
+    margin-right: 30px;
+}
+
+.input1 {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input1 input[type="text"],
+.input1 label,
+.input1 form {
+    margin: 10px 20px 0px 20px;
+}
+
+.input1 label {
+    position: relative;
+    top: 15px;
+    color: rgb(47, 47, 94);
+}
+
+.input1 input[type="text"],
+.input1 textarea {
+    border: 2px solid rgb(86, 163, 168);
+    border-radius: 3px;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 6px;
+}
+
+.output label,
+.output p {
+    margin: 10px 20px 0px 20px;
+}
+
+.output p {
+    width: 450px;
+    height: 40px;
+    background: white;
+    border-radius: 4px;
+    position: relative;
+    bottom: 15px;
+}
