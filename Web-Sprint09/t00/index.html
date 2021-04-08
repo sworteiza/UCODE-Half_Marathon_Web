@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Regist</title>
+</head>
+
+<body>
+    <center>
+        <div class="Registration">
+            <h2>Sign Up</h2>
+            <p>Please fill this form to create an account.</p>
+            <form action="index.php" method="post">
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" name="login" class="form-control <?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $username; ?>">
+                    <span class="invalid-feedback"><?php echo $username_err; ?></span>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" name="password" class="form-control <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $password; ?>">
+                    <span class="invalid-feedback"><?php echo $password_err; ?></span>
+                </div>
+                <div class="form-group">
+                    <label>Confirm Password</label>
+                    <input type="password" name="confirm_password" class="form-control <?php echo (!empty($confirm_password_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $confirm_password; ?>">
+                    <span class="invalid-feedback"><?php echo $confirm_password_err; ?></span>
+                </div>
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" name="name">
+                </div>
+                <div class="form-group">
+                    <label>E-mail</label>
+                    <input type="email" name="mail">
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="sub" value="Submit">
+                    <input type="reset" class="res" value="Reset">
+                </div>
+                <p>Already have an account? <a href="../t01/login.php">Login here</a>.</p>
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>
