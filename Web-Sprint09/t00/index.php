@@ -35,10 +35,6 @@
             }
             mysqli_stmt_close($stmt);
         }
-        else{
-            echo $username_err . "<br>";
-            echo $password_err;
-        }
         mysqli_close($link);
     }
 ?>
@@ -79,8 +75,10 @@
                     <input type="email" name="mail">
                 </div>
                 <div class="form-group">
+                    <div class="butt">
                     <input type="submit" class="sub" value="Submit">
                     <input type="reset" class="res" value="Reset">
+                    </div>
                 </div>
                 <p>Already have an account? <a href="../t01/login.php">Login here</a>.</p>
             </form>

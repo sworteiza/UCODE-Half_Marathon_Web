@@ -1,0 +1,52 @@
+body {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(#e66465, #9198e5) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.Registration {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 30px;
+    color: rgb(41, 34, 34);
+    margin-top: 230px;
+    background-color: #eb9aab;
+    -webkit-box-shadow: 22px -17px 8px -4px rgba(78, 96, 167, 0.18);
+    -moz-box-shadow: 22px -17px 8px -4px rgba(78, 96, 167, 0.18);
+    box-shadow: 22px -17px 8px -4px rgba(46, 56, 96, 0.18);
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    display: block;
+    padding: 0.46em 1.6em;
+    border: 0.1em solid #000000;
+    margin: 0 0.2em 0.2em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #000000;
+    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+    background-color: #FFFFFF;
+    transition: all 0.15s;
+    display: block;
+    margin: 0.4em auto;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    color: #0c0c0c;
+    border-color: #FFFFFF;
+}
